@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="6"
+    android:columnCount="1"
+    android:orientation="horizontal"
+    tools:context="com.example.paola.unidad2pggs.MainActivity"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/route_dh"
+        android:id="@+id/txv_route"
+        android:onClick="nextActivity1"
+        android:drawableLeft="@drawable/m1"
+        android:drawablePadding="8dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/tiltle"
+        android:background="@color/white"
+        android:textColor="@color/orange"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/photo"
+        android:id="@+id/txv_photo"
+        android:onClick="nextActivity2"
+        android:drawableLeft="@drawable/m2"
+        android:drawablePadding="8dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/tiltle"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/parking"
+        android:id="@+id/txv_parking"
+        android:onClick="nextActivity3"
+        android:drawableLeft="@drawable/m3"
+        android:drawablePadding="8dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/tiltle"
+        android:background="@color/white"
+        android:textColor="@color/orange"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/history"
+        android:id="@+id/txv_history"
+        android:onClick="nextActivity4"
+        android:drawableLeft="@drawable/m4"
+        android:drawablePadding="8dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/tiltle"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estadísticas turisticas"
+        android:id="@+id/txv_statistic"
+        android:onClick="nextActivity5"
+        android:drawableLeft="@drawable/m5"
+        android:drawablePadding="8dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/tiltle"
+        android:background="@color/white"
+        android:textColor="@color/orange"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/craft"
+        android:id="@+id/txv_crafts"
+        android:onClick="nextActivity6"
+        android:drawableLeft="@drawable/m6"
+        android:drawablePadding="8dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/tiltle"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        />
+
+</GridLayout>
