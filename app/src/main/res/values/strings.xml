@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Unidad2PGGS</string>
-    <string name="dh">Conoce Dolores Hidalgo C.I.N</string>
+    <string name="dhcin">Conoce Dolores Hidalgo C.I.N</string>
     <string name="route">Una manera de descubrir Dolores Hidalgo, selecciona la ruta que más te llame la atención y disfruta de la cultura de este pueblo mágico</string>
     <string name="name_route">name route</string>
     <string name="description">description</string>
@@ -8,12 +8,19 @@
     <string name="name_parking">name parking</string>
     <string name="price">precio</string>
     <string name="title_history">Historia de Dolores Hidalgo C.I.N</string>
-    <string name="history_dh">La ciudad está ligada al origen de la vida de la hacienda La Erre, fundada para la cría de ganado y de la que se compra parte para el trazo original del pueblo.</string>
+    <string name="history_dh">Descubre lo que te ofrece Dolores Hidalgo Cuna de la Independecia Nacional, viendo el siguiente video</string>
     <string name="route_dh">Ruta por Dolores Hidalgo C.I.N</string>
     <string name="photo">Lugares para tomar las mejores fotos</string>
     <string name="parking">Estacionamientos y baños</string>
     <string name="history">Historia de Dolores Hidalgo C.I.N</string>
-    <string name="craft">Artesanías y talavera</string>
-    <string name="crafts_title">Artesanias y Talavera</string>
-    <string name="crafts_des">Descubre los mejores lugares para comprar Artesanias y Talavera</string>
+    <string name="crafts_title">Artesanías y talavera</string>
+    <string name="crafts_des">Mira el siguiente video y aprende como se hacen las mejores artesanias por manos Dolorenses</string>
+    <string name="title_activity_maps_route1">Map</string>
+
+
+    <!-->maps<-->
+    <string name="title_activity_maps_route">Map</string>
+    <string name="google_directions_key">AIzaSyAKCizZJqM7c1qpJXWU6033FAhrT3pt2_Y</string>
+    <string name="direcction">direcction</string>
+
 </resources>
