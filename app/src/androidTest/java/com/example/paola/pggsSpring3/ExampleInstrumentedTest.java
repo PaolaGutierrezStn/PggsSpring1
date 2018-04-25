@@ -1,4 +1,4 @@
-package com.example.paola.unidad2pggs;
+package com.example.paola.pggsSpring3;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
